@@ -1,4 +1,3 @@
-import ChatInput from "./ChatInput";
 import ModelSelect from "./ModelSelect";
 import TagList from "./TagList";
 
@@ -13,7 +12,6 @@ const Welcome = () => {
 				</h1>
 				<TagList></TagList>
 			</div>
-			<ChatInput></ChatInput>
 		</div>
 		// </div>
 	);

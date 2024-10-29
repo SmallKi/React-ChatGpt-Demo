@@ -11,7 +11,7 @@ const ChatInput = () => {
 					重新生成
 				</Button>
 			</div>
-			<div className="w-full items-center gap-3 text-base bg-gray-100 dark:bg-gray-700 text-black dark:text-gray-100 rounded p-2 m-2 shadow-md relative overflow-hidden flex justify-between">
+			<div className="w-full items-end gap-3 text-base bg-gray-100 dark:bg-gray-700 text-black dark:text-gray-100 rounded p-2 m-2 shadow-md relative overflow-hidden flex justify-between">
 				<span className="text-green-500">
 					<RiThunderstormsLine />
 				</span>
