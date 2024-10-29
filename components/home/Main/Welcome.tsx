@@ -1,9 +1,10 @@
+import ChatInput from "./ChatInput";
 import ModelSelect from "./ModelSelect";
 import TagList from "./TagList";
 
 const Welcome = () => {
 	return (
-		<div className="flex-1 flex flex-col h-full">
+		<div className="relative flex-1 flex flex-col h-full">
 			{/* <div className="flex-1 h-full"> */}
 			<div className="overflow-y-auto w-full flex flex-col items-center px-4 py-20 justify-start h-full">
 				<ModelSelect />
@@ -12,6 +13,7 @@ const Welcome = () => {
 				</h1>
 				<TagList></TagList>
 			</div>
+			<ChatInput></ChatInput>
 		</div>
 		// </div>
 	);
