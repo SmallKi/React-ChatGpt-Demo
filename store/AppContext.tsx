@@ -25,6 +25,8 @@ const AppProvider: FC<PropsWithChildren> = ({ children }) => {
 		theme: "light",
 		selectedChatId: "",
 		selectedModel: "deepseek",
+		messageList: [],
+		streamingId: "",
 	});
 	// eslint-disable-next-line react-hooks/exhaustive-deps
 	const s = useMemo(() => {
